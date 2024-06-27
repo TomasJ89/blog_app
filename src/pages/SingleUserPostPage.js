@@ -19,12 +19,12 @@ const SingleUserPostPage = () => {
     ;
 
     return (
-        <div className="d-flex gap-2 p-2 border">
+        <div className="d-flex gap-2 p-2 border row">
             {post && (<>
-                    <div className="flex1">
+                    <div className="col-5">
                         <img className="w-100" src={post.image} alt=""/>
                     </div>
-                    <div className="flex1 overflow-hidden">
+                    <div className="col-5 flex1 overflow-hidden">
                         <h4>{post.title}</h4>
                         <h5 className="pointer"
                             onClick={() => {

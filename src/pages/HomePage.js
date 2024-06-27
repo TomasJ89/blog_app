@@ -22,7 +22,7 @@ const HomePage = () => {
 
     useEffect(() => {
         getAllPosts();
-    }, [page]);
+    }, [page,filter]);
 
     return (
         <div>
