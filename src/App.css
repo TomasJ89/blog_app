@@ -1,0 +1,37 @@
+body {
+    background-color: #fffefe;
+}
+
+.postBox {
+    width: 250px;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+.pointer {
+    cursor: pointer;
+}
+.page {
+    cursor: pointer;
+
+}
+
+.page:hover {
+    background-color: #e7e7e7;
+
+}
+
+.select {
+    background-color: #e7e7e7;
+}
+.error {
+    color: red;
+}
+.bgColor {
+    background-color: #e7e7e7;
+}
+
+.fontSize {
+    font-size: 12px;
+}
